@@ -1,0 +1,124 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Snugglebug",
+				"abbreviation": "SB",
+				"full": "Snugglebug",
+				"url": "",
+				"authors": [
+					"Tea Bags"
+				],
+				"convertedBy": [],
+				"color": "#ff8000"
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Snugglebug",
+			"size": [
+				"S"
+			],
+			"type": "beast",
+			"source": "Snugglebug",
+			"alignment": [
+				"U"
+			],
+			"ac": [
+				10
+			],
+			"hp": {
+				"average": 4,
+				"formula": "1d8"
+			},
+			"speed": {
+				"walk": 20,
+				"burrow": 10,
+				"fly": 10
+			},
+			"str": 4,
+			"dex": 10,
+			"con": 12,
+			"int": 1,
+			"wis": 7,
+			"cha": 10,
+			"passive": 10,
+			"cr": "0",
+			"senses": [
+				"blindsight 30ft"
+			],
+			"senseTags": [
+				"B"
+			],
+			"skill": {
+				"performance": "+2"
+			},
+			"resist": [
+				"cold",
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"fluff": {
+				"entries": [
+					"Resembling a giant, downy pillow with legs, the Snugglebug is a sight to behold. Its velvety fur, reminiscent of the softest silk, conceals a potent secret: when agitated or threatened, the beetle's fur bristles and fluffs up, releasing a noxious poison that deters would-be predators. The poison, though not lethal, incapacitates those who dare to disturb it.",
+					"Yuan-Ti keep Snugglebugs as prized pets. They groom and nurture these bugs using methods that cause undue stress to maintain their fluffy coats. Some Yuan-ti see Snugglebugs as a status symbol, and hold competitions to determine whose beetle has the fluffiest and most toxic fur. Yuan-ti will use dwarves as a metric for the potency of their bug's poison."
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://64.media.tumblr.com/be3a26f661fd6fc42a404de6b1ae728d/50bc2d944b607d5c-2e/s2048x3072/e511add222c6382c4995bfc8e374bba900d84d69.jpg"
+						}
+					}
+				]
+			},
+			"environment": [
+				"desert",
+				"urban"
+			],
+			"familiar": true,
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 0} to hit, reach 5 ft., one target. {@h}1 piercing damage."
+					]
+				},
+				{
+					"name": "Fluff Up",
+					"entries": [
+						"As an action, the beetle can fluff up its fur to gain resistance to non-magical slashing, bludgeoning, and piercing damage. "
+					]
+				}
+			],
+			"miscTags": [
+				"MW"
+			],
+			"trait": [
+				{
+					"name": "Poisonous Fur",
+					"entries": [
+						"Any creature that grapples the beetle or otherwise comes into direct contact with the beetle's fur while puffed up must succeed on a {@dc 12} Constitution saving throw or become {@condition poisoned} for 1 minute."
+					]
+				}
+			],
+			"conditionInflict": [
+				"poisoned"
+			],
+			"tokenHref": {
+				"type": "external",
+				"url": "https://i.postimg.cc/7LcS6pwj/beetletoken.png"
+			},
+			"damageTags": [
+				"P"
+			],
+			"savingThrowForced": [
+				"constitution"
+			]
+		}
+	]
+}
